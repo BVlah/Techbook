@@ -1,34 +1,34 @@
-# ReadMe-z
+# Techbook
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-I've struggled creating professional ReadMe's for previous challenges as I'm always unsure of what information needs to go in it. I wanted to create this project to standardize my ReadMe creation and ensure a professional ReadMe for all my future repositories.
+This is a backend social media application that allows you to create thoughts and comment on your friends thoughts using Node, Express, MongoDB, and Mongoose
 
 ## Table of Contents
 [Installation Instructions](#installation-instructions)    
 
 [Usage Instructions](#usage-instructions)
   
-[How to Contribute](#how-to-contribute)
-  
 [Questions](#questions)  
 
 [License](#License)
   
 ## Installation Instructions
-Make sure to have Node installed on your computer, then clone the repository and run npm install on the connected terminal to set up the environment
+MongoDB and node must be installed in advance. Clone the repo, then run npm i to install the dependencies. Once complete, run npm start to run the application
 
 ## Usage Instructions
-After the installation, run 'node index.js' and follow the prompts to create your professional ReadMe!
+The app can be run through Insomina or Postman. See the video below for a demonstration on using the app
+
+https://drive.google.com/file/d/1xZhPCd1rN3ou8hCUTm2m75TxrK8oU7Z-/view
 
 ## Questions
-For more information about the developer, check out my [Github Profile](https://github.com/TheVlah)
-For additional questions, please reach out to me via email: [brennan.vlahcevic@armssoftware.com](brennan.vlahcevic@armssoftware.com)
+For more information about the developer, check out my [Github Profile](https://github.com/BVlah)
+For additional questions, please reach out to me via email: [bvlahcevic5@yahoo.com](bvlahcevic5@yahoo.com)
 
 ## License
 MIT License
 
-Copyright (c) 2022 by [TheVlah](https://github.com/TheVlah)
+Copyright (c) 2022 by [BVlah](https://github.com/BVlah)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -48,3 +48,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
     
+  
