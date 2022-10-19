@@ -1,4 +1,4 @@
-const {User} = require('./models');
+const {User} = require('../models');
 
 const userController = {
     getAllUsers(req, res) {
@@ -14,7 +14,7 @@ const userController = {
             res.status(500).json(err)
         });
     },
-    getUserbyId({params}, res) {
+    getUserById({params}, res) {
         User.findOne({_id: params.id})
         .populate({
             path: 'thoughts',
