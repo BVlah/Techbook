@@ -5,7 +5,7 @@ const reactionSchema = new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: () => new Types.ObjecId
+            default: () => new Types.ObjectId
         },
         reactionBody: {
             type: String,
@@ -13,19 +13,20 @@ const reactionSchema = new Schema(
             trim: true,
         },
         username: {
-        type: String,
-        required: true,
+            type: String,
+            required: true,
         },
         createdAt: {
-        type: Date,
-        default: Date.now,
-        get: (createdAtVal) => dateFormat(createdAtVal),
+            type: Date,
+            default: Date.now,
+            get: (createdAtVal) => dateFormat(createdAtVal),
         },
     },
     {
         toJSON: {
-        getters: true,
+            getters: true,
         },
+        id: false
     }
 );
 
